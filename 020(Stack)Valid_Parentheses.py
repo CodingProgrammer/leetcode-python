@@ -7,7 +7,7 @@ class Solution(object):
         f = [None]
         pmap = { ')':'(', ']':'[', '}':'{' }
         for c in s:
-            if c in pmap and pmap[c] == f[len(f) - 1]:
+            if c in pmap and pmap[c] == f[len(f) - 1]: #≈–∂œc «”“¿®∫≈≤¢«“ƒ‹”Î’ª∂•∆•≈‰
                 f.pop()
             else:
                 f.append(c)
